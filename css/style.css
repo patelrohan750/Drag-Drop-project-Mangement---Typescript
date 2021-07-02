@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.p20{
+    padding:20px;
+}
+.error{
+    color: red;
+}
+.projects h1{
+    padding-left: 15px;
+}
+.mr10{
+    margin-right: 10px;
+}
+.hold{
+    opacity: .5;
+    border: 1px solid red!important;
+}
+.hide{
+    display: none;
+}
+.dragging{
+    opacity: .5;
+}

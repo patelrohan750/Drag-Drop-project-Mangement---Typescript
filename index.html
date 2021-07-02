@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Management</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container">
+        <form class="mt-5" id="form">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Title</label>
+              <input type="text" class="form-control" id="title" name="title" aria-describedby="emailHelp" required>
+             
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Description</label>
+              <input type="text" class="form-control" id="desc" name="desc" required>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">People</label>
+                <input type="number" class="form-control" id="people" name="people" required>
+              </div>
+           
+            <button type="submit" class="btn btn-primary">Create Project</button>
+          </form>
+
+
+          <div class="mt-3 card projects">
+              <h1 class="bg-primary text-white ">Active Projects</h1>
+              <div class="row p20 projects_list">
+                  <!--  -->
+                 
+                
+                
+                 
+              </div>
+              <!-- <ul class=""></ul> -->
+          </div>
+          <div class="mt-3 card projects">
+            <h1 class="bg-primary text-white ">Finished Projects</h1>
+            <div class="row p20 projects_list">
+                <!--  -->
+               
+              
+              
+               
+            </div>
+            </div>
+    </div>
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="dist/validation.js"></script>
+    <script src="dist/app.js"></script>
+   
+  
+</body>
+</html>
